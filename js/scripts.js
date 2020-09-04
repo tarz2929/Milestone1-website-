@@ -32,10 +32,15 @@ function sendEmail() {
             }
 
             if(falseMessage) {
-                document.getElementById("send-email").setAttribute("disabled", true);
+                //document.getElementById("send-email").setAttribute("disabled", true);
                 alert("test");
             } else {
-                document.getElementById("send-email").removeAttribute("disabled");
+                //document.getElementById("send-email").removeAttribute("disabled");
+                let name = document.getElementById("name").value,
+                email = document.getElementById("email").value,
+                subject= document.getElementById("subject").value,
+                message = document.getElementById("message").value
+                window.location.href = 'mailto:mail@company.com?subject=' + subject + ' (' + email + ')' + '&body=' + message;
             }
         }
        

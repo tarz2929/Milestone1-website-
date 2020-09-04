@@ -7,6 +7,8 @@ https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
 
 https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html
 
+https://stackoverflow.com/questions/32604812/create-mailto-from-form-with-custom-fields
+
 
 
 
