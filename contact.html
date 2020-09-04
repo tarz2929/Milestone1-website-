@@ -49,10 +49,10 @@
             <div>
               <label>Comments:</label>
               <br />
-              <textarea name="comments" id="message" rows="12" cols="35">Send your comments to us.</textarea>
+              <textarea name="comments" id="message" onkeyup="validateMeessage()" rows="12" cols="35" placeholder="Send your comments to us."></textarea>
             </div>
             <div>
-              <input type="button" onclick="sendEmail()"  name="submit" value="Send" />
+              <input type="submit" id="send-email" name="submit" value="Send"/>
               <input type="reset" name="reset" value="Clear Form" />
             </div>
           </form>

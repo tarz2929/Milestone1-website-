@@ -18,16 +18,26 @@ function sendEmail() {
 
     const swearWords = ["feldercarb", "frack", "skinjob", "vulgacarb"]
     
-    function sendEmail()
+    function validateMeessage()
     { 
         let inputMessage = document.getElementById("message").value;
+        console.log(inputMessage);
+        let falseMessage = false;
         if(inputMessage) {
             for(let i=0; i < swearWords.length; i++) {
-                if(inputMessage.indexOf(swearWords[i]) !== -1) {
-                    alert("test");
+                if(inputMessage.toLowerCase().indexOf(swearWords[i]) !== -1) {
+                    falseMessage = true;
                     break;
                 }
             }
+
+            if(falseMessage) {
+                document.getElementById("send-email").setAttribute("disabled", true);
+                alert("test");
+            } else {
+                document.getElementById("send-email").removeAttribute("disabled");
+            }
         }
+       
     }
 
