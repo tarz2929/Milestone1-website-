@@ -38,7 +38,9 @@ body .content p{
   padding: 0px;
 }
 
-
+.position{
+  border-top: 2px solid red;
+}
 
 
 
