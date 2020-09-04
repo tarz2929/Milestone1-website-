@@ -17,3 +17,17 @@ function sendEmail() {
     */
 
     const swearWords = ["feldercarb", "frack", "skinjob", "vulgacarb"]
+    
+    function sendEmail()
+    { 
+        let inputMessage = document.getElementById("message").value;
+        if(inputMessage) {
+            for(let i=0; i < swearWords.length; i++) {
+                if(inputMessage.indexOf(swearWords[i]) !== -1) {
+                    alert("test");
+                    break;
+                }
+            }
+        }
+    }
+
