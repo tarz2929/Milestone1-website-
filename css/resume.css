@@ -13,16 +13,16 @@ h1 small {
   font-size: 0.5em;
 }
 
-h1, h2, {
+h1, h2 {
   padding-left: 30px;
 }
 
 .content {
   background-color: #fafafa;
   max-width: 800px;
-  margin: 0;
+  margin: 0px auto;
   padding: 50px 100px 50px 50px;
-  border-right: 1px solid #efefef;
+  border: 1px solid #efefef;
 }
 .summary, .position, .education, p {
   margin-bottom: 25px;
