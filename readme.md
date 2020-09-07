@@ -9,6 +9,9 @@ https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html
 
 https://stackoverflow.com/questions/32604812/create-mailto-from-form-with-custom-fields
 
+https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open
+
+
 
 
 
