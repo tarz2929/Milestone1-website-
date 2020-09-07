@@ -4,7 +4,7 @@ body {
   margin: 0px;
   background-color: #ffffff;
   font-family: "C540", serif;
-  color: black;
+  color: #000000;
   font-size: larger;
 }
 h1 small {
@@ -31,14 +31,14 @@ h1, h2 {
 }
 
 .summary {
-  border-top: 2px solid purple;
+  border-top: 2px solid #800080;
 }
 .position {
-  border-top: 2px solid red;
+  border-top: 2px solid #ff0000;
 }
 
 .education {
-  border-top: 2px solid green;
+  border-top: 2px solid #008000;
 }
 
 
