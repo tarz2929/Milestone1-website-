@@ -13,78 +13,37 @@
 <body>
   <h1>Contact page</h1>
 
-  <!--
-    <form action="mailto:saitarunmulley@gmail.com" method="post" enctype="text/plain">
-        Name:<br>
-        <input type="text" name="name"><br>
-        E-mail:<br>
-        <input type="text" name="mail"><br>
-        Comment:<br>
-        <input type="text" name="comment" size="50"><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-        </form>
-        -->
 
 
+  <form action="mailto:mail@tarun.com" method="get" enctype="text/plain">
+    <div>
+      <label for="name">Name:
+        <input type="text" name="name" id="name" />
+      </label>
+    </div>
+    <div>
+      <label for="email">Email:
+        <input type="text" name="email" id="email" />
+      </label>
+    </div>
+    <div>
+      <label for="subject">Subject:
+        <input type="text" name="subject" id="subject" />
+      </label>
+    </div>
 
- 
-        <form action="mailto:saitarunmulley@gmail.com" method="get" enctype="text/plain">
-            <div>
-              <label for="name">Name:
-                <input type="text" name="name" id="name" />
-              </label>
-            </div>
-            <div>
-              <label for="email">Email:
-                <input type="text" name="email" id="email" />
-              </label>
-            </div>
-            <div>
-                <label for="subject">Subject:
-                  <input type="text" name="subject" id="subject" />
-                </label>
-              </div>
-
-            <div>
-              <label>Comments:</label>
-              <br />
-              <!-- onkeyup="validateMeessage()"-->
-              <textarea name="comments" id="message"  rows="12" cols="35" placeholder="Send your comments to us."></textarea>
-            </div>
-            <div>
-              <input type="button" id="send-email" onclick="validateMeessage()" name="submit" value="Send"/>
-              <input type="reset" name="reset" value="Clear Form" />
-            </div>
-          </form>
-
-          
-
-
-
-
-          <!--
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <input type="button" value="Send Email" onclick="sendEmail()">
-  <script>
-    function sendEmail() {
-      Email.send({
-        SecureToken: "<your generated token>",
-        To: 'recipient@example.com',
-        From: "sender@example.com",
-        Subject: "Test Email",
-        Body: "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
-      }).then(
-        message => alert("mail sent successfully")
-      );
-    }
-  </script>
-
-  -->
-
-
-
-
+    <div>
+      <label>Comments:</label>
+      <br />
+      <!-- onkeyup="validateMeessage()" -->
+      <textarea name="comments" id="message" rows="12" cols="35"
+        placeholder="Please send your message here."></textarea>
+    </div>
+    <div>
+      <input type="button" id="send-email" onclick="validateMeessage()" name="submit" value="Send" />
+      <input type="reset" name="reset" value="Clear Form" />
+    </div>
+  </form>
 
 
 </body>
@@ -93,3 +52,12 @@
 
 
 </html>
+
+
+<!--
+* Code for form borrowed from the following links:
+ https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
+ https://css-tricks.com/snippets/html/mailto-links/
+ https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html
+
+-->
