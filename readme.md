@@ -29,6 +29,8 @@ https://blog.hubspot.com/marketing/html-form-email
 
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
+https://www.w3schools.com/jsref/prop_submit_disabled.asp
+
 
 
 
